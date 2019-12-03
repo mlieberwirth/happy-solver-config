@@ -1,0 +1,21 @@
+########
+# PORT #
+########
+server:
+  port: 8283
+
+spring:
+############
+# LANGUAGE #
+############
+  mvc:
+    locale: en_US
+    locale-resolver: fixed
+###########
+# LOGGING #
+###########
+logging:
+  file: logfile-monitor.log  
+  level:
+    root: INFO
+    

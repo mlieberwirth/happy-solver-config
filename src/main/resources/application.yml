@@ -1,0 +1,18 @@
+########
+# PORT #
+########
+server:
+  port: 8280
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configs/{application}-{profile}
+###########
+# LOGGING #
+###########
+logging:
+  level:
+    root: INFO
+    

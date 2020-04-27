@@ -1,5 +1,7 @@
 # Happy-Solver-Config-Server
 
+DEPRECATED USE https://gitlab.com/happy-solver
+
 Is a [Spring-Cloud-Config-Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_spring_cloud_config_server) 
 for providing application-properties to the Happy-Solver-Services.
 
